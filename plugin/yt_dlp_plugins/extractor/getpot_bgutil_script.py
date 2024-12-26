@@ -26,7 +26,7 @@ from yt_dlp_plugins.extractor.getpot_bgutil import __version__
 class BgUtilScriptPotProviderRH(GetPOTProvider):
     _PROVIDER_NAME = 'BgUtilScriptPot'
     _SUPPORTED_CLIENTS = ('web', 'web_safari', 'web_embedded',
-                          'web_music', 'web_creator', 'mweb', 'tv_embedded', 'tv')
+                          'web_music', 'web_creator', 'mweb', 'tv_embedded', 'tv', 'ios')
     VERSION = __version__
     _SUPPORTED_PROXY_SCHEMES = (
         'http', 'https', 'socks4', 'socks4a', 'socks5', 'socks5h')
